@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('paisaje1.png');
+    background-size: cover;
+}
+
+#peppita {
+    bottom: 0; 
+    left: 10px; 
+    width: 100px; 
+    height: auto; 
+}
+
+.container {
+    text-align: center;
+    margin-top: 50vh;
+}
+
+h1 {
+    color: rgb(52, 14, 53);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #a98aac; 
+    background-color: transparent;
+    color: #3a2932;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #4a24a3;
+    color: #fff; 
+}
+
+
+
+
